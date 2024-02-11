@@ -1,0 +1,76 @@
+:root {
+    --purple: #f55ee8;
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.nodisplay {
+    display: none;
+}
+
+.fadeInAndOut {
+    animation: fadeInAndOut 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeInAndOut {
+
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .25;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+}
+
+.fadeOut {
+    animation: fadeOut .5s ease-out forwards;
+}
+
+@keyframes fadeOut {
+
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes fadeIn {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
