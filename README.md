@@ -7,14 +7,14 @@
 ## Commands
 
 to run the app:
-`shell
+```shell
 npm install
 
 npm run serve
-`
+```
 
 some commands:
-`shell
+```shell
 npm install -g @vue/cli
 
 vue create frontend
@@ -22,4 +22,4 @@ vue create frontend
 npm install bootstrap@5.3.0 --save
 
 npm run serve
-`
+```
